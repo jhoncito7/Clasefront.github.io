@@ -36,7 +36,7 @@ const server = http.createServer((req, res) => {
       <body>
         <div class="message-container">
           <h1>¡Hola, este es tu mensaje elegante!</h1>
-          <p>Estamos trabajando para que esta experiencia sea aún mejor.</p>
+          <p>Estamos trabajando para que esta experiencia sea aún mejor que la anterior.</p>
           <button class="button">Descubre más</button>
         </div>
       </body>
