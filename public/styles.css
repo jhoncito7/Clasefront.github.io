@@ -1,0 +1,67 @@
+/* Estilo global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Fondo con gradiente moderno */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;  /* Asegura que el texto dentro de la página se centre */
+  }
+  
+  /* Contenedor del mensaje */
+  .message-container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semi-transparente para resaltar el contenido */
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    max-width: 400px; /* Máximo ancho */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Transición suave */
+    margin: auto; /* Asegura que el contenedor se centre en la página */
+  }
+  
+  /* Estilo del título */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;  /* Color del texto más oscuro para el título */
+  }
+  
+  /* Estilo del párrafo */
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #555;  /* Color de texto más suave para el párrafo */
+  }
+  
+  /* Estilo del botón */
+  .button {
+    padding: 10px 20px;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #6a11cb;
+  }
+  
+  /* Efecto al pasar el mouse sobre el contenedor */
+  .message-container:hover {
+    transform: translateY(-10px); /* Efecto de elevación */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
+  }
+  

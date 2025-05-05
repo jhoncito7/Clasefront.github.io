@@ -1,0 +1,14 @@
+{
+    "name": "mi-proyecto-mensaje",
+    "version": "1.0.0",
+    "description": "Un proyecto Node.js simple que muestra un mensaje con estilo.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Tu Nombre",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
